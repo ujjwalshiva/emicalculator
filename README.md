@@ -4,7 +4,11 @@ This is a simple EMI Calculator App built using simple HTML, CSS and JavaScript.
 
 
 ## Screenshots
-<img src="https://user-images.githubusercontent.com/81429137/130277284-8ff9e146-8308-4ab3-a200-24255a3dbd1a.png" width=400>
+
+
+<img src="https://user-images.githubusercontent.com/81429137/130285417-f22bec9e-dd7a-4555-8369-227e7e275761.png" width=400>
+
+<img src="https://user-images.githubusercontent.com/81429137/130285531-32f1dee2-a990-4e9b-a84e-d0f90fe2acfc.png" width=400>
 <br>
 
 ## Website Link: https://ujjwalshiva.github.io/emicalculator/
