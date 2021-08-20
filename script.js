@@ -13,14 +13,22 @@ function calculate() {
     let interestrate=document.querySelector('#interestrate').value;
     let months=document.querySelector('#months').value;
 
-    const interest = interestrate/1200;
-    
-    let top = Math.pow((1+interest),months);
-    let bottom = top - 1;
-    let ratio = top/bottom;
-    let emi = (amount * interest * ratio).toFixed(0);
+    if (amount=='' || interestrate==''|| months=='') {
+        document.querySelector('#final').innerHTML=`<h4 style='color:#ef5350'>Enter Values</h4>`;
+    }
 
-    document.querySelector('#final').innerHTML=`Your EMI is ${emi}`;      
+    else {
+        const interest = interestrate/1200;
     
-    console.log(amount, interestrate, months);
+        let top = Math.pow((1+interest),months);
+        let bottom = top - 1;
+        let ratio = top/bottom;
+        let emi = (amount * interest * ratio).toFixed(0);
+
+        document.querySelector('#final').innerHTML=`Your EMI is ${emi}`;      
+    
+        console.log(amount, interestrate, months);
+    }
+
+    
 }

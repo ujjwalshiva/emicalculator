@@ -23,6 +23,8 @@ body {
     border-radius: 25px;
     align-items: center;
     margin: 3vw;
+    /*box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;*/
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 h1 {
@@ -69,8 +71,19 @@ input[type=number]:focus {
 }
 
 .finalval{
+    margin: 20px;
     padding-bottom: 8px;
     font-size: 25px;
+}
+
+h4 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #536DFE;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 515px) {
